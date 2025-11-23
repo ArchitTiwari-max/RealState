@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Always use a light theme similar to the video */
+  color-scheme: light;
+  color: #0f172a;            /* slate-900 */
+  background-color: #f9fafb; /* slate-50 */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Make headings more compact (the big size comes from Vite defaults) */
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* Inputs / search box similar to the reference UI */
+input {
+  color: #0f172a;
+}
+
+input::placeholder {
+  color: #9ca3af; /* light gray placeholder */
+}
+
+button {
+  font-family: inherit;
+}
